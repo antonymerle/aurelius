@@ -1,34 +1,49 @@
 @import url("https://fonts.googleapis.com/css2?family=VT323&display=swap");
 
-.wrapper,
 html,
 body {
   height: 100%;
   margin: 0;
+  display: flex;
+  flex-wrap: wrap;
   background-image: linear-gradient(120deg, #a18cd1 0%, #fbc2eb 100%);
   display: flex;
-  padding-top: 3em;
-  padding-bottom: 3em;
+
   /* flex-wrap: wrap; */
   /* display: flex;
   justify-content: center;
   flex-direction: row; */
 }
 
-.container {
+.title {
+  background-color: whitesmoke;
+  font-family: "VT323";
+  font-size: xxx-large;
+  padding: auto;
+  width: fit-content;
+}
+
+.meditations {
   display: flex;
   flex-wrap: wrap;
   flex-grow: 4;
   margin-left: 33%;
   margin-right: 15%;
+  /* background: url("./assets/floor.png"); */
 }
 
 .statue {
   opacity: 0.9;
   /* border-radius: 80%; */
-  width: 40%;
-  height: 40%;
+  width: 60%;
+  height: auto;
 }
+
+/* .floor {
+  width: 100%;
+  height: auto;
+} */
+
 .meditation {
   /* padding-bottom: 33%; */
   font-family: "VT323";
