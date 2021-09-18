@@ -5,17 +5,7 @@ html {
   height: 100%;
   margin: 0;
   display: grid;
-  /* background-image: linear-gradient(to bottom, #a18cd1 0%, #fbc2eb 100%), */
-  /* url("./assets/floor.png"); */
   background-image: linear-gradient(to bottom, #a18cd1 0%, #fbc2eb 100%);
-
-  /* rgba(161, 140, 209, 0),
-  rgba(251, 194, 235, 1) */
-
-  /* flex-wrap: wrap; */
-  /* display: flex;
-  justify-content: center;
-  flex-direction: row; */
 }
 
 .title {
@@ -35,8 +25,9 @@ html {
 
 .statue {
   opacity: 0.9;
-  width: 60%;
+  width: 20%;
   height: auto;
+  /* filter: hue-rotate(86deg); */
 }
 
 .meditation {
@@ -45,9 +36,11 @@ html {
 }
 
 .floor {
-  position: absolute;
+  height: 100%;
+  position: inherit;
+  top: 0px;
   left: 0;
-  top: 0;
-  max-width: 100%;
-  opacity: 0.2;
+  width: 100%;
+  /* max-height: fit-content; */
+  opacity: 0.1;
 }
